@@ -10,7 +10,7 @@ CREATE TABLE posts (
 DROP TABLE IF EXISTS user;
 CREATE TABLE user (
   id INTEGER PRIMARY KEY NOT NULL,
-  userid text NOT NULL,
+  v text NOT NULL,
   password text NOT NULL,
   created_at text NOT NUll,
   updated_at text NOT NULL
